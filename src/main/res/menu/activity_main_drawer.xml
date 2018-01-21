@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_account"
+            android:title="Perfil empleado" />
+        <item
+            android:id="@+id/nav_marcadores"
+            android:icon="@drawable/ic_room_black_24dp"
+            android:title="Estanques marcados" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/nav_foto"
+            android:icon="@drawable/ic_wallpaper_black_24dp"
+            android:enabled="false"
+            android:title="Galeria" />
+        <item
+            android:id="@+id/nav_cerrarsesion"
+            android:icon="@drawable/icon_cerrar"
+            android:title="Cerrar sesion" />
+    </group>
+
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:enabled="false"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:enabled="false"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
